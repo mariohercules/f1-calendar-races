@@ -3,14 +3,15 @@
     <entity name="Calendar" representedClassName="Calendar" syncable="YES">
         <attribute name="circuit" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="race" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="round" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
     <entity name="Tracks" representedClassName="Tracks" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Calendar" positionX="-45" positionY="9" width="128" height="120"/>
         <element name="Tracks" positionX="-63" positionY="-18" width="128" height="60"/>
-        <element name="Calendar" positionX="-45" positionY="9" width="128" height="105"/>
     </elements>
 </model>

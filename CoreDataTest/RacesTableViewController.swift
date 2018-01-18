@@ -46,6 +46,7 @@ class RacesTableViewController: UITableViewController {
         // Configure the cell...
         cell.textLabel?.text = calendar[indexPath.row].race
         cell.detailTextLabel?.text = calendar[indexPath.row].circuit
+        cell.imageView?.image = UIImage.init(named: calendar[indexPath.row].image!)
 
         return cell
     }

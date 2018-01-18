@@ -17,9 +17,10 @@ extension Calendar {
         return NSFetchRequest<Calendar>(entityName: "Calendar")
     }
 
-    @NSManaged public var round: Int16
-    @NSManaged public var race: String?
     @NSManaged public var circuit: String?
     @NSManaged public var date: NSDate?
+    @NSManaged public var race: String?
+    @NSManaged public var id: Int16
+    @NSManaged public var image: String?
 
 }

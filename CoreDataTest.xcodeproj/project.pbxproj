@@ -15,9 +15,9 @@
 		AC89C75720100321000F5608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC89C75520100321000F5608 /* LaunchScreen.storyboard */; };
 		AC89C78D20102487000F5608 /* Tracks+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C78B20102487000F5608 /* Tracks+CoreDataClass.swift */; };
 		AC89C78E20102487000F5608 /* Tracks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C78C20102487000F5608 /* Tracks+CoreDataProperties.swift */; };
-		AC89C79120104551000F5608 /* Calendar+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C78F20104550000F5608 /* Calendar+CoreDataClass.swift */; };
-		AC89C79220104551000F5608 /* Calendar+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C79020104551000F5608 /* Calendar+CoreDataProperties.swift */; };
 		ACE1B57E20104F1400CD3170 /* RacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1B57D20104F1400CD3170 /* RacesTableViewController.swift */; };
+		ACE1B5912010ADBE00CD3170 /* Calendar+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1B58F2010ADBE00CD3170 /* Calendar+CoreDataClass.swift */; };
+		ACE1B5922010ADBE00CD3170 /* Calendar+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1B5902010ADBE00CD3170 /* Calendar+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		AC89C75820100322000F5608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC89C78B20102487000F5608 /* Tracks+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tracks+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AC89C78C20102487000F5608 /* Tracks+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tracks+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AC89C78F20104550000F5608 /* Calendar+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AC89C79020104551000F5608 /* Calendar+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		ACE1B57D20104F1400CD3170 /* RacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesTableViewController.swift; sourceTree = "<group>"; };
+		ACE1B58F2010ADBE00CD3170 /* Calendar+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACE1B5902010ADBE00CD3170 /* Calendar+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 				ACE1B57D20104F1400CD3170 /* RacesTableViewController.swift */,
 				AC89C78B20102487000F5608 /* Tracks+CoreDataClass.swift */,
 				AC89C78C20102487000F5608 /* Tracks+CoreDataProperties.swift */,
-				AC89C78F20104550000F5608 /* Calendar+CoreDataClass.swift */,
-				AC89C79020104551000F5608 /* Calendar+CoreDataProperties.swift */,
+				ACE1B58F2010ADBE00CD3170 /* Calendar+CoreDataClass.swift */,
+				ACE1B5902010ADBE00CD3170 /* Calendar+CoreDataProperties.swift */,
 				AC89C74D20100321000F5608 /* Main.storyboard */,
 				AC89C75320100321000F5608 /* Assets.xcassets */,
 				AC89C75520100321000F5608 /* LaunchScreen.storyboard */,
@@ -154,12 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE1B5912010ADBE00CD3170 /* Calendar+CoreDataClass.swift in Sources */,
 				AC89C74C20100321000F5608 /* ViewController.swift in Sources */,
-				AC89C79120104551000F5608 /* Calendar+CoreDataClass.swift in Sources */,
 				AC89C78D20102487000F5608 /* Tracks+CoreDataClass.swift in Sources */,
+				ACE1B5922010ADBE00CD3170 /* Calendar+CoreDataProperties.swift in Sources */,
 				AC89C75220100321000F5608 /* CoreDataTest.xcdatamodeld in Sources */,
 				AC89C74A20100321000F5608 /* AppDelegate.swift in Sources */,
-				AC89C79220104551000F5608 /* Calendar+CoreDataProperties.swift in Sources */,
 				ACE1B57E20104F1400CD3170 /* RacesTableViewController.swift in Sources */,
 				AC89C78E20102487000F5608 /* Tracks+CoreDataProperties.swift in Sources */,
 			);
