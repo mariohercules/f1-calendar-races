@@ -1,3 +1,3 @@
-# f1-calendar-races
+# 2018 FIA Formula One World Championship® Race Calendar
 
-## iOS 9+ Compatible with Swift 4
+## iOS: Using Swift 4 when targeting iOS 9 with CoreData.
