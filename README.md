@@ -1,3 +1,3 @@
-# 2018 FIA Formula One World Championship® Race Calendar
+# Using Swift 4 when targeting iOS 9
 
-## iOS: Using Swift 4 when targeting iOS 9 with CoreData.
+## iOS application demoing Core Data 
