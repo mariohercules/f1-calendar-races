@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         //getDataFromCoreData()
         
         // Save data on CoreData based on array of Races
-        saveArrayOnCoreDataRaceCalendarEntity(array: generateRacesData2())
+        saveArrayOnCoreDataRaceCalendarEntity(array: generateRacesData())
         //saveArrayOnCoreDataRaceCalendarEntity(array: generateRacesData2())
         
         // Do any additional setup after loading the view, typically from a nib.
