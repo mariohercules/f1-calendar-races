@@ -24,14 +24,8 @@ class ViewController: UIViewController {
         debugPrint(calendar.count)
         
         getData()
-        
-        //saveDataOnCoreData()
-        //saveArrayOnCoreData(array: generateData())
-        //getDataFromCoreData()
-        
         // Save data on CoreData based on array of Races
         saveArrayOnCoreDataRaceCalendarEntity(array: generateRacesData())
-        //saveArrayOnCoreDataRaceCalendarEntity(array: generateRacesData2())
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -208,35 +202,6 @@ class ViewController: UIViewController {
             //completion("OK")
 
         })
-    }
-    
-    // end-user interacts with the app somehow to create an image sketch animation
-    // when they do, this function is called...
-    func createSketchAnimation(imageToSketch: UIImage) {
-        let sketcher = ImageSketcher()
-        
-        sketcher.sketch(image: imageToSketch, completion: {(animation: SketchAnimation) -> Void in
-            // This is the callback.  It's a closure, passed as the argument to the sketch function's completion parameter
-            
-            // Ask the end-user if they'd like to view the completed animation now...
-            // You as a develoepr have access to the completed animation through the animation parameter to this closure
-        })
-    }
-    
-    // API Designer World
-    struct SketchAnimation {
-        // represents some fully-generated animation that's ready to play by the end user
-    }
-    
-    struct ImageSketcher {
-        func sketch(image: UIImage, completion: (_ sketchAnimation: SketchAnimation) -> Void) {
-            // do some crunching to create the SketchAnimation instance...
-            let animation = SketchAnimation()
-            
-            // invoke the completion callback
-            // pass along the completed sketch animation instance
-            completion(animation)
-        }
     }
     
     struct Race {
